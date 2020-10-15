@@ -1,0 +1,56 @@
+body{
+  background-color: crimson;
+  background-image: url("backgroundpicture.jpg");
+}
+
+.jumbotron{
+    background:none;
+    text-align: center;
+}
+.paragraph{
+text-align: justify;
+margin-left: 5rem;
+margin-right: 5rem;
+
+}
+* {
+    box-sizing: border-box;
+  }
+  .row{
+      margin-left: 2rem;
+      margin-right: 2rem;
+  }
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .foo{
+    background-color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    height:200px;
+    text-align: center;
+    padding-top:5px;
+    margin:auto;
+  }
+  .foo.abc{
+    font-display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+    
+    
+  }
+  .dropdown-menu{
+    background-color: lightblue;
+  }
+  
